@@ -1,5 +1,5 @@
 name: "HA-IPaper Add-on"
-version: "0.0.1"
+version: "0.0.2"
 slug: "ha_ipaper"
 description: "Interactive e-Paper Dashboard for Home Assistant"
 arch:
@@ -8,7 +8,7 @@ arch:
   - armv7
 init: false
 map:
-  - config:rw
+  - addon_config:rw
 ports:
   8081/tcp: 6969
 options:
